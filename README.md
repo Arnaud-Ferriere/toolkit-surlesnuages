@@ -1,11 +1,12 @@
-Ce repo accompagne la série **Bonnes pratiques PowerShell** sur mon site [Sur les Nuages](https://surlesnuages.fr). 
+Ce repo accompagne la série **Bonnes pratiques PowerShell** sur mon site [Sur les Nuages](https://surlesnuages.fr) ([Repo dédié](https://github.com/Arnaud-Ferriere/surlesnuages/))
 
 Les articles construisent au fur et à mesure un vrai toolkit : modules, scripts d'exemple, tests, pipeline de publication. Ce qui est expliqué dans les articles est appliqué ici, et inversement.
+Les outils ne s'arrêteront pas à ce qui sera construit dans les articles du site : quand je rencontre un usage terrain qui peut être pertinent, il sera rajouté dans le toolkit.
 
 Concrètement, vous trouverez :
 
 - Un module **SLN.Toolkit** : fonctions réutilisables pour les tâches courantes M365 / Entra ID / Active Directory etc
-- Des **scripts utilitaires** standalone (génération de sandbox, etc.)
+- Des **scripts utilitaires** appelant des fonctions du module
 - Le **support pédagogique** des articles : versions intermédiaires, exemples volontairement imparfaits utilisés pour illustrer les bonnes pratiques
 - À terme : tests Pester / PSScriptAnalyzer, doc générée par PlatyPS, pipeline GitHub Actions 
 
@@ -25,7 +26,7 @@ toolkit-surlesnuages/
 │       ├── SLN.Toolkit.psm1
 │       ├── Public/              # Fonctions exportées
 │       └── Private/             # Helpers internes
-├── tools/                       # Utilitaires hors module
+├── scripts/                     # Utilitaires s'appuyant sur les modules 
 ├── articles/                    # Supports pédagogiques par article
 │   └── 01-documenter-scripts/
 │       ├── README.md            # Contexte de l'article
@@ -37,7 +38,7 @@ toolkit-surlesnuages/
 ├── docs/                        # Doc générée (à partir de l'article 3)
 ├── .github/
 │   └── workflows/               # Pipeline CI/CD (à partir de l'article 6)
-└── README.md
+└── README.md                    # Ce fichier
 ```
 
 > [!NOTE]
@@ -59,7 +60,8 @@ toolkit-surlesnuages/
 ## Contribuer
 
 Le repo accepte les **issues** pour signaler un bug, suggérer une amélioration, ou proposer un sujet pour un futur article. Les **PR** sont bienvenues, mais gardez en tête que le contenu est lié à une série éditoriale : un changement majeur dans le module pourrait nécessiter de réécrire un article.
-N'hésitez pas à ouvrir une issue d'abord pour q'on discute de l'approche : le contenu est et sera toujours améliorable !
+N'hésitez pas à ouvrir une issue d'abord pour qu'on discute de l'approche : le contenu est et sera toujours améliorable !
+
 
 ## License
 
