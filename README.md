@@ -5,7 +5,7 @@ Les outils ne s'arrêteront pas à ce qui sera construit dans les articles du si
 
 Concrètement, vous trouverez :
 
-- Un module **SLN.Toolkit** : fonctions réutilisables pour les tâches courantes M365 / Entra ID / Active Directory etc
+- Un module **SurLesNuages.Toolkit** : fonctions réutilisables pour les tâches courantes M365 / Entra ID / Active Directory etc
 - Des **scripts utilitaires** appelant des fonctions du module
 - Le **support pédagogique** des articles : versions intermédiaires, exemples volontairement imparfaits utilisés pour illustrer les bonnes pratiques, et versions finales 
 - À terme : tests Pester / PSScriptAnalyzer, doc générée par PlatyPS, pipeline GitHub Actions 
@@ -20,11 +20,11 @@ Concrètement, vous trouverez :
 ## Structure du repo
 
 ```
-toolkit-surlesnuages/
+surlesnuages-toolkit/
 ├── modules/
-│   └── SLN.Toolkit/             # Module principal (fonctions exportées)
-│       ├── SLN.Toolkit.psd1
-│       ├── SLN.Toolkit.psm1
+│   └── SurLesNuages.Toolkit/             # Module principal (fonctions exportées)
+│       ├── SurLesNuages.Toolkit.psd1
+│       ├── SurLesNuages.Toolkit.psm1
 │       ├── Public/              # Fonctions exportées
 │       └── Private/             # Helpers internes
 ├── scripts/                     # Utilitaires s'appuyant sur les modules 
@@ -43,7 +43,7 @@ toolkit-surlesnuages/
 ```
 
 > [!NOTE]
-> Le contenu de `articles/` peut contenir du code **volontairement mal écrit**, utilisé comme exemple pédagogique dans les articles. Ils sont indiqués dans les README.md de chaque dossiers. Ne les copiez pas tel quel pour de la prod, préférez plutôt les versions du module `SLN.Toolkit/` pour le code de référence.
+> Le contenu de `articles/` peut contenir du code **volontairement mal écrit**, utilisé comme exemple pédagogique dans les articles. Ils sont indiqués dans les README.md de chaque dossiers. Ne les copiez pas tel quel pour de la prod, préférez plutôt les versions du module `SurLesNuages.Toolkit/` pour le code de référence.
 
 ## Articles de la série
 
@@ -53,7 +53,7 @@ toolkit-surlesnuages/
 |---|---|---|---|
 |1|Documenter ses scripts PowerShell|Documentation des scripts PowerShell, premiers exemples dans `articles/01-documenter-scripts/`|⏳ À venir|
 |2|Microsoft Graph en PowerShell|Helpers d'authentification, wrapper de pagination, gestion du throttling|⏳ À venir|
-|3|Créer un module PowerShell propre|Packaging dans `SLN.Toolkit/`, manifest, exports, doc PlatyPS|⏳ À venir|
+|3|Créer un module PowerShell propre|Packaging dans `SurLesNuages.Toolkit/`, manifest, exports, doc PlatyPS|⏳ À venir|
 |4|Tester avec Pester v5|Suite de tests dans `tests/`|⏳ À venir|
 |5|Sécuriser ses scripts|Intégration `SecretManagement`, gestion des credentials|⏳ À venir|
 |6|CI/CD avec GitHub Actions|Pipeline complète : build, tests, publication PSGallery|⏳ À venir|
