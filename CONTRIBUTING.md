@@ -12,7 +12,7 @@ Le contenu de ce repo est lié aux articles publiés. Concrètement :
 - Le dossier `articles/` contient du **support pédagogique daté**, parfois volontairement imparfait. Ce code n'est **pas** destiné à être amélioré : il illustre des points spécifiques d'un article. N'allez pas ouvrir une issue pour dire "Le premier script d'exemple de l'article sur la documentation des scripts est fouilli et incompréhensible 🥺" : c'est normal ! Par contre, si il y a un problème sur un script qui est censé représenter les bonnes pratiques et le "modèle" de ce qui est à faire, n'hésitez surtout pas !
 - Le repo et le blog se renforcent mutuellement. Une modification du repo peut nécessiter une mise à jour d'article, et inversement.
 
-J'insiste : ça veut pas dire qu'il faut pas contribuer ! Ca veut dire qu'il faut être vigilant lors de vos contributions.
+J'insiste : ça veut pas dire qu'il ne faut pas contribuer ! Ca veut dire qu'il faut être vigilant lors de vos contributions.
 
 ## Types de contributions bienvenues
 
