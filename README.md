@@ -40,7 +40,8 @@ toolkit-surlesnuages/
 └── README.md
 ```
 
-> [!NOTE] Le contenu de `articles/` peut contenir du code **volontairement mal écrit**, utilisé comme exemple pédagogique dans les articles. Ils sont indiqués dans les README.md de chaque dossiers. Ne les copiez pas tel quel pour de la prod, préférez plutôt les versions du module `SLN.Toolkit/` pour le code de référence.
+> [!NOTE]
+> Le contenu de `articles/` peut contenir du code **volontairement mal écrit**, utilisé comme exemple pédagogique dans les articles. Ils sont indiqués dans les README.md de chaque dossiers. Ne les copiez pas tel quel pour de la prod, préférez plutôt les versions du module `SLN.Toolkit/` pour le code de référence.
 
 ## Articles de la série
 
