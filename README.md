@@ -48,9 +48,31 @@ toolkit-surlesnuages/
 
 |#|Article|Apport au toolkit|Statut|
 |---|---|---|---|
-|1|[Documenter ses scripts PowerShell](https://surlesnuages.fr/...)|`tools/New-TestSandbox.ps1`, premiers exemples dans `articles/`|⏳ À venir|
+|1|Documenter ses scripts PowerShell|Documentation des scripts PowerShell, premiers exemples dans `articles/01-documenter-scripts/`|⏳ À venir|
 |2|Microsoft Graph en PowerShell|Helpers d'authentification, wrapper de pagination, gestion du throttling|⏳ À venir|
 |3|Créer un module PowerShell propre|Packaging dans `SLN.Toolkit/`, manifest, exports, doc PlatyPS|⏳ À venir|
 |4|Tester avec Pester v5|Suite de tests dans `tests/`|⏳ À venir|
 |5|Sécuriser ses scripts|Intégration `SecretManagement`, gestion des credentials|⏳ À venir|
 |6|CI/CD avec GitHub Actions|Pipeline complète : build, tests, publication PSGallery|⏳ À venir|
+
+## Contribuer
+
+Le repo accepte les **issues** pour signaler un bug, suggérer une amélioration, ou proposer un sujet pour un futur article. Les **PR** sont bienvenues, mais gardez en tête que le contenu est lié à une série éditoriale : un changement majeur dans le module pourrait nécessiter de réécrire un article.
+N'hésitez pas à ouvrir une issue d'abord pour q'on discute de l'approche : le contenu est et sera toujours améliorable !
+
+## License
+
+Ce repo est publié sous license [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
+
+Vous pouvez :
+- **Partager** : copier et redistribuer le contenu sur n'importe quel support
+- **Adapter** : remixer, transformer, et construire à partir du contenu, y compris à des fins commerciales
+
+Une seule condition : **mentionner l'auteur** (Arnaud Ferriere / surlesnuages.fr) avec un lien vers ce repo et la license, et indiquer si tu as fait des modifications.
+
+Le texte complet de la license est dans le fichier [LICENSE](LICENSE).
+## Contact
+
+- Blog : [surlesnuages.fr](https://surlesnuages.fr/)
+- Articles connexes : tag [`PowerShell`](https://surlesnuages.fr/tags/PowerShell) sur le blog
+- Issues : utilise l'onglet [Issues](https://github.com/%3Cton-handle%3E/toolkit-surlesnuages/issues) du repo
