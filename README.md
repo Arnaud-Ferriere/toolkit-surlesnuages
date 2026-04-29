@@ -62,17 +62,11 @@ N'hésitez pas à ouvrir une issue d'abord pour q'on discute de l'approche : le 
 
 ## License
 
-Ce repo est publié sous license [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
-
-Vous pouvez :
-- **Partager** : copier et redistribuer le contenu sur n'importe quel support
-- **Adapter** : remixer, transformer, et construire à partir du contenu, y compris à des fins commerciales
-
-Une seule condition : **mentionner l'auteur** (Arnaud Ferriere / surlesnuages.fr) avec un lien vers ce repo et la license, et indiquer si tu as fait des modifications.
-
+Ce repo est publié sous license [MIT](LICENSE).
 Le texte complet de la license est dans le fichier [LICENSE](LICENSE).
+
 ## Contact
 
 - Blog : [surlesnuages.fr](https://surlesnuages.fr/)
 - Articles connexes : tag [`PowerShell`](https://surlesnuages.fr/tags/PowerShell) sur le blog
-- Issues : utilise l'onglet [Issues](https://github.com/%3Cton-handle%3E/toolkit-surlesnuages/issues) du repo
+- Issues : utilisez l'onglet [Issues](https://github.com/%3Cton-handle%3E/toolkit-surlesnuages/issues) du repo
