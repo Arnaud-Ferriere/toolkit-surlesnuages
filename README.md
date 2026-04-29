@@ -1,4 +1,4 @@
-Ce repo accompagne la série **Bonnes pratiques PowerShell** sur mon site [Sur les Nuages](https://surlesnuages.fr) ([Repo dédié](https://github.com/Arnaud-Ferriere/surlesnuages/))
+Ce repo accompagne la série **Bonnes pratiques PowerShell** sur mon site [Sur les Nuages](https://surlesnuages.fr) 
 
 Les articles construisent au fur et à mesure un vrai toolkit : modules, scripts d'exemple, tests, pipeline de publication. Ce qui est expliqué dans les articles est appliqué ici, et inversement.
 Les outils ne s'arrêteront pas à ce qui sera construit dans les articles du site : quand je rencontre un usage terrain qui peut être pertinent, il sera rajouté dans le toolkit.
@@ -69,8 +69,9 @@ N'hésitez pas à ouvrir une issue d'abord pour qu'on discute de l'approche : le
 Ce repo est publié sous license [MIT](LICENSE).
 Le texte complet de la license est dans le fichier [LICENSE](LICENSE).
 
-## Contact
+## Liens
 
 - Blog : [surlesnuages.fr](https://surlesnuages.fr/)
 - Articles connexes : tag [`PowerShell`](https://surlesnuages.fr/tags/PowerShell) sur le blog
-- Issues : utilisez l'onglet [Issues](https://github.com/%3Cton-handle%3E/toolkit-surlesnuages/issues) du repo
+- Issues : utilisez l'onglet [Issues](https://github.com/%3Cton-handle%3E/toolkit-surlesnuages/issues) de ce repo
+- Repo dédié du Blog : <https://github.com/Arnaud-Ferriere/surlesnuages/>
