@@ -2,7 +2,7 @@
 
 Merci de vous intéresser au projet !
 
-Ce repo n'est pas un projet open source classique : il accompagne une **série éditoriale** sur le blog [surlesnuages.fr](https://surlesnuages.fr). Cette particularité change un peu la façon dont on J'accepte les contributions, d'où ces quelques notes.
+Ce repo n'est pas un projet open source classique : il accompagne une **série éditoriale** sur le blog [surlesnuages.fr](https://surlesnuages.fr). Cette particularité change un peu la façon dont j'accepte les contributions, d'où ces quelques notes.
 
 ## Avant tout : ce repo est d'un côté éditorial, de l'autre l'hébergement d'une suite d'outils d'administration PowerShell sous forme du module SLNKit
 
